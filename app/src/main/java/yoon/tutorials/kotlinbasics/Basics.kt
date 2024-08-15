@@ -12,4 +12,9 @@ fun main(){
     println(bNumber)
     var exage : UShort = 50u;
     println(exage)
+
+    val myTrue : Boolean = true;
+    val myFalse: Boolean = false;
+    println(myTrue || myFalse) // true
+    println(myTrue && myFalse) // false
 }

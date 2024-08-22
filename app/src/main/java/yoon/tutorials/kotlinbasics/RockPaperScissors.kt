@@ -26,6 +26,7 @@ fun main(){
         player == "Rock" && computer == "Scissors" -> "Player"
         player == "Paper" && computer == "Rock" -> "Player"
         player == "Scissors" && computer == "Paper" -> "Player"
+        //플레이어가 틀린값을 입력했을 경우는 승자를 컴퓨터로  ex) Rockkkk를 입력
         else -> "Computer"
     }
 

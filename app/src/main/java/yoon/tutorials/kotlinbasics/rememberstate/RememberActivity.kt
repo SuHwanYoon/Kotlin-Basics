@@ -51,7 +51,7 @@ class RememberActivity : ComponentActivity() {
             //remember 변수값에 접근하는 텍스트
 //            Text(text = "Treasures Found: ${treasuresFound.value}")
             //by keyword가 있기때문에 직접접근가능 {} 삭제가능
-            Text(text = "Treasures Found: ${treasuresFound}")
+            Text(text = "Treasures Found: $treasuresFound")
             Text(text = "Current Direction: ${direction.value}")
             //stormOrTreasure를 만났을때 나타나는 text
             Text(text = "${stormOrTreasure.value}")

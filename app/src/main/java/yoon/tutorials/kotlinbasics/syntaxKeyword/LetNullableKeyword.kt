@@ -1,8 +1,5 @@
 package yoon.tutorials.kotlinbasics.syntaxKeyword
 
-import androidx.compose.ui.text.toUpperCase
-import java.util.Locale
-
 fun main(){
 
     //nullable String
